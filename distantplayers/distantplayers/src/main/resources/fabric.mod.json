@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "distantplayers",
+  "version": "${version}",
+  "name": "Distant Players",
+  "description": "See other players from beyond your render distance when there is a clear line of sight.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.distantplayers.DistantPlayers"],
+    "client": ["com.example.distantplayers.client.DistantPlayersClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
